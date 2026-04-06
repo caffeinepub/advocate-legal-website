@@ -151,15 +151,15 @@ export default function Footer() {
             </h4>
             <address className="not-italic space-y-3">
               <p className="font-open-sans text-sm text-white/60 leading-relaxed">
-                14 Lincoln Square, Suite 800
+                D.NO 16-4-128, Kasturi Devi Nagar,
                 <br />
-                New York, NY 10005
+                Pogathota, Nellore - 524001
               </p>
               <p className="font-open-sans text-sm text-white/60">
-                +1 (212) 555-0187
+                +91 9133617033
               </p>
               <p className="font-open-sans text-sm text-white/60">
-                counsel@inehemiahassociates.law
+                advocatenehemiah@gmail.com
               </p>
             </address>
             <div

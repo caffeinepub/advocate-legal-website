@@ -15,17 +15,17 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Address",
-    value: "14 Lincoln Square, Suite 800\nNew York, NY 10005",
+    value: "D.NO 16-4-128, Kasturi Devi Nagar,\nPogathota, Nellore - 524001",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (212) 555-0187",
+    value: "+91 9133617033",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "counsel@harperassociates.law",
+    value: "advocatenehemiah@gmail.com",
   },
   {
     icon: Clock,
@@ -336,12 +336,12 @@ export default function ContactSection() {
                 will assess your matter and outline the best path forward.
               </p>
               <a
-                href="tel:+12125550187"
+                href="tel:+919133617033"
                 className="inline-block mt-4 font-open-sans text-sm font-bold"
                 style={{ color: "oklch(var(--gold))" }}
                 data-ocid="contact.link"
               >
-                +1 (212) 555-0187
+                +91 9133617033
               </a>
             </div>
           </motion.div>
