@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.375rem;
+
+    /* Navy dark background */
+    --background: 1 0 0;
+    --foreground: 0.13 0.025 252;
+
+    --card: 1 0 0;
+    --card-foreground: 0.13 0.025 252;
+
+    --popover: 1 0 0;
+    --popover-foreground: 0.13 0.025 252;
+
+    /* Primary: deep navy */
+    --primary: 0.18 0.06 252;
+    --primary-foreground: 1 0 0;
+
+    /* Secondary: light gray panel */
+    --secondary: 0.96 0.004 252;
+    --secondary-foreground: 0.18 0.06 252;
+
+    --muted: 0.95 0.004 252;
+    --muted-foreground: 0.48 0.018 252;
+
+    /* Accent: gold */
+    --accent: 0.74 0.12 72;
+    --accent-foreground: 0.13 0.025 252;
+
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+
+    --border: 0.9 0.006 252;
+    --input: 0.9 0.006 252;
+    --ring: 0.74 0.12 72;
+
+    /* Custom law firm tokens */
+    --navy: 0.17 0.06 252;
+    --navy-dark: 0.13 0.055 252;
+    --navy-light: 0.22 0.07 252;
+    --gold: 0.74 0.12 72;
+    --gold-light: 0.82 0.1 75;
+    --gold-muted: 0.65 0.09 72;
+    --charcoal: 0.18 0.02 252;
+    --gray-text: 0.48 0.018 252;
+
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+
+    --sidebar: 0.985 0 0;
+    --sidebar-foreground: 0.145 0 0;
+    --sidebar-primary: 0.205 0 0;
+    --sidebar-primary-foreground: 0.985 0 0;
+    --sidebar-accent: 0.97 0 0;
+    --sidebar-accent-foreground: 0.205 0 0;
+    --sidebar-border: 0.922 0 0;
+    --sidebar-ring: 0.708 0 0;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .font-cinzel {
+    font-family: "Cinzel", serif;
+  }
+
+  .font-open-sans {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .text-navy {
+    color: oklch(var(--navy));
+  }
+
+  .bg-navy {
+    background-color: oklch(var(--navy));
+  }
+
+  .bg-navy-dark {
+    background-color: oklch(var(--navy-dark));
+  }
+
+  .bg-navy-light {
+    background-color: oklch(var(--navy-light));
+  }
+
+  .text-gold {
+    color: oklch(var(--gold));
+  }
+
+  .bg-gold {
+    background-color: oklch(var(--gold));
+  }
+
+  .border-gold {
+    border-color: oklch(var(--gold));
+  }
+
+  .text-charcoal {
+    color: oklch(var(--charcoal));
+  }
+
+  .text-gray-text {
+    color: oklch(var(--gray-text));
+  }
+}
